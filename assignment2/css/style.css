@@ -1,0 +1,69 @@
+* {
+	box-sizing:border-box;
+	font-family: helvetica, sans-serif;
+}
+h1 {
+	margin-bottom: 15px;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 1.75em;
+}
+.row {
+	max-width:100%;
+	margin: auto;
+	position: absolute;
+}
+#chicken-tile, #beef-tile, #sushi-tile {
+	position: relative;
+	display: inline-block;
+	padding: 5px;
+}
+.section {
+	background-color: #b3b3b3;
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+#chicken-tag, #beef-tag, #sushi-tag {
+	position: absolute;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	top: 6px;
+	right: 6px;
+	width: 35%;
+	text-align: center;
+	padding: 5px;
+	color: white;
+	font-size: 1.25em;
+	clear: left;
+}
+#chicken-tag {
+	background-color: purple;
+}
+#beef-tag {
+	background-color: blue;
+}
+#sushi-tag {
+	background-color: green;
+}
+/****** Desktop version - over 992 px ******/
+@media (min-width: 992px){
+	.lg-col {
+		width:33%
+		}
+	}
+/****** Tablet version - between 768 px and 991 px ******/ 
+@media (min-width: 768px) and (max-width: 991px){
+	#chicken-tile, #beef-tile {
+		width:49.25%;
+		}
+	#sushi-tile {
+		width: 99%;
+		}	
+	}
+/****** Mobile version - 767 pxs or less ******/
+@media (max-width: 767px){
+	.sm-col {
+		width: 99%;
+		}
+	}
