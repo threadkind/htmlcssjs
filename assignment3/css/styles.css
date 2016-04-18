@@ -1,0 +1,36 @@
+body {
+	font-size: 16px;
+	color: #202020;
+	background-color: #BBBBBB;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+#food-llc {
+	color: #000000;
+	font-size: 2em;
+}
+.navbar-default{
+	border: 0px;
+}
+.navbar-brand {
+	font-size: 2em;
+}
+#nav-list {
+	font-size: 1.5em;
+	color: #FFFFFF;
+	background-color: #ff4da6;
+}
+#navigation, #chicken-tile {
+	background-color: #75a3a3;
+}
+#menu-heading {
+	font-size: 3em;
+}
+/*Desktop mockup illustration should correspond to Bootstrap ‘md’-based classes
+Tablet mockup illustration should correspond to Bootstrap ‘sm’-based classes
+Mobile mockup illustration should correspond to Bootstrap ‘xs’-based classes*/
+
+@media (max-width: 767px){
+	 #chicken-tile {
+		margin: 30px;
+}
+}
